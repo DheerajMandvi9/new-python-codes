@@ -1,9 +1,9 @@
-def string_reverse(str1):
-    rstr1 = ''
-    index = len(str1)
+def string_reverse(str2):
+    rstr2 = ''
+    index = len(str2)
     while index > 0:
-        rstr1 += str1[ index - 1 ]
+        rstr2 += str2[ index - 1 ]
         index = index - 1
-    return rstr1
+    return rstr2
 str1=input("Enter String:")
-print(string_reverse(str1))
+print(string_reverse(str2))
